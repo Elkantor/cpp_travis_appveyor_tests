@@ -26,3 +26,5 @@ script:
   - mkdir build && cd build
   - cmake -B../build -H.. -DCMAKE_BUILD_TYPE:STRING=Release
   - cmake --build ../build
+  - cd ../build && ls
+  - ./bin/Release/Test
