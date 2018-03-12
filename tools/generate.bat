@@ -1,0 +1,1 @@
+cmake -B../build -H.. -G "Ninja" -DCMAKE_BUILD_TYPE:STRING=Release
