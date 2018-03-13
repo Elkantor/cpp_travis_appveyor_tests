@@ -17,7 +17,7 @@ before_build:
     - cmake -B../build -H.. -G "Visual Studio 15 2017 Win64" -DCMAKE_BUILD_TYPE:STRING=Release
 
 build:
-  project: $(APPVEYOR_BUILD_FOLDER)\build\Test.sln
+  project: $(APPVEYOR_BUILD_FOLDER)\build\Project.sln
 
 test_script:
   - '$(APPVEYOR_BUILD_FOLDER)\build\test\bin\%CONFIGURATION%\Test.exe'
