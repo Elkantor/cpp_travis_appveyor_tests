@@ -34,8 +34,8 @@ Now, you can run the tests of this simple Project by launching the run_tests.bat
 ../build/test/bin/Release/Test
 ```
 
-To test this project on Travis CI and/or on AppVeyor, simply fork this repository, create a new account on each plateform by sign in with your github account, and then enable your forked repository.
-The next commit you'll submit will automaticly fired the test project's build (inside the test folder).
+To test this project on Travis CI and/or on AppVeyor, simply fork this repository, create a new account on each plateform by signing in with your github account, and then enable your forked repository.
+The next commit you'll submit will automaticly fired the test project's build (which is inside the test folder, at the root of this repository).
 
 
 ## Licensing
