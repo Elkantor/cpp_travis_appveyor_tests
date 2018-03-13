@@ -12,6 +12,7 @@ addons:
       - gcc-7
       - g++-7
       - cmake
+      - ninja-build
 
 script:
   # Link gcc-7 and g++-7 to their standard commands
@@ -26,4 +27,4 @@ script:
   - mkdir build && cd build
   - cmake -B../build -H.. -DCMAKE_BUILD_TYPE:STRING=Release
   - cmake --build ../build
-  - ../build/bin/Release/Test
+  - ../build/bin/test/Release/Test
