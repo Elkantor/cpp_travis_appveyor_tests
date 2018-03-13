@@ -25,6 +25,6 @@ script:
   - gcc -v && g++ -v && cmake --version
   # Run your build commands next
   - mkdir build && cd build
-  - cmake -B../build -H.. -DCMAKE_BUILD_TYPE:STRING=Release
+  - cmake -B../build -H.. -G "Ninja" -DCMAKE_BUILD_TYPE:STRING=Release
   - cmake --build ../build
   - ../build/test/bin/Release/Test
