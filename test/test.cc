@@ -7,6 +7,7 @@ int main(int argc, char** argv){
     int a = 2, b = 4;
     int result = GetGreater(a, b);
     if(result != b){
+        std::cout << "The GetGreater(int a, int b) method don't passed the tests" << std::endl;
         return EXIT_FAILURE;
     }
 
