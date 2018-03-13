@@ -2,6 +2,10 @@ project (Test)
 
 set(EXECUTABLE_OUTPUT_PATH bin/${CMAKE_BUILD_TYPE})
 
+if (MSVC)
+    set(EXECUTABLE_OUTPUT_PATH bin/)
+endif (MSVC)
+
 file (GLOB_RECURSE testing_files ./*)
 file (GLOB_RECURSE testing_source_files ../src/*)
 

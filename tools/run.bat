@@ -4,5 +4,5 @@ echo ---------------- &&^
 echo Run the project: &&^
 echo ---------------- &&^
 echo. &&^
-..\build\bin\Release\Test.exe &&^
+..\build\src\bin\Release\App.exe &&^
 echo. 
